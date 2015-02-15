@@ -10,7 +10,7 @@ It has been replaced by "templatedisplay" and "fluiddisplay" in the meantime.
 The old documentation has been left below, in case it should be useful to anyone.
 
 User Manual
-***********
+-----------
 
 This is a very rough explanation of how this plug-in runs. It may not be enough to be able to use it fully.
 

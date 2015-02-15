@@ -1,0 +1,54 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+<!--
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:datadisplay/locallang_tca.xml:datadisplay.general_sheet</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el />
+			</ROOT>
+		</sDEF>
+-->
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:datadisplay/locallang_tca.xml:datadisplay.filter_sheet</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<use_search>
+						<TCEforms>
+							<label>LLL:EXT:datadisplay/locallang_tca.xml:datadisplay.use_search</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</use_search>
+					<if_no_search>
+						<TCEforms>
+							<label>LLL:EXT:datadisplay/locallang_tca.xml:datadisplay.if_no_search</label>
+							<config>
+								<type>radio</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:datadisplay/locallang_tca.xml:datadisplay.display_all</numIndex>
+										<numIndex index="1">all</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:datadisplay/locallang_tca.xml:datadisplay.display_none</numIndex>
+										<numIndex index="1">none</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</if_no_search>
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>

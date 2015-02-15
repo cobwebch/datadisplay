@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for flexform field in 'datadisplay'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="datadisplay.general_sheet">General configuration</label>
+			<label index="datadisplay.filter_sheet">Filter configuration</label>
+			<label index="datadisplay.use_search">Use search values</label>
+			<label index="datadisplay.if_no_search">If no search</label>
+			<label index="datadisplay.display_all">Display all</label>
+			<label index="datadisplay.display_none">Display none</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="datadisplay.general_sheet">Configuration générale</label>
+			<label index="datadisplay.filter_sheet">Configuration des filtres</label>
+			<label index="datadisplay.use_search">Utiliser les valeurs de recherche</label>
+			<label index="datadisplay.if_no_search">Si aucune recherche</label>
+			<label index="datadisplay.display_all">Afficher tout</label>
+			<label index="datadisplay.display_none">Ne rien afficher</label>
+		</languageKey>
+	</data>
+</T3locallang>

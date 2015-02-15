@@ -1,0 +1,2 @@
+* Use hook $TYPO3_CONF_VARS['SC_OPTIONS']['tslib/class.tslib_content.php']['getData'] to get structured data instead of putting it into $GLOBALS
+* Put section_count into a register
